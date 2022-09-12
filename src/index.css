@@ -1,13 +1,68 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt20817bfb343d20e1/61de218adea73a236fc57511/011422_NeonChampionInsights_KeyArt.png);
+}
+.inicio{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  border-bottom: 1px solid black;
+}
+.titulo{
+  color:red;
+  padding-top: 30px;
+  text-align: center;
+}
+.Buscador{
+  padding-top: 40px;
+
+
+}
+.Tabla{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+}
+.filtro h2 {
+  color: aqua;
+  font-size: xx-large;
+}
+.icono img{
+  margin-top: 10px;
+  margin-left: 0%;
+  width: 100px;
+  height: 100px;
+}
+.agentes{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.agentes img{
+  width: 100px;
+  height: 80px;
+  justify-content: center;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-left: 10px;
+  margin-top: 2px;
+  background-image: url(https://images.alphacoders.com/113/1135602.png);
+  width: 200px;
+  height: 250px;
+  align-items: center;
+}
+.card h5{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin: 0%;
+}
+.card p{
+  margin: 0%;
+  border-bottom:1px solid black ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.rol{
+  width: 100%;
 }
